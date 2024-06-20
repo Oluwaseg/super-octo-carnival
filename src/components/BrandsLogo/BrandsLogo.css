@@ -1,0 +1,26 @@
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  animation: scroll 20s linear infinite;
+}
+
+.marquee-content img {
+  max-height: 50px; /* Adjust according to your design */
+  margin: 0 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
