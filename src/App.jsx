@@ -35,7 +35,7 @@ const App = () => {
     // Simulate a delay of 3 seconds before showing the page
     const preloadTimeout = setTimeout(() => {
       setIsLoading(false);
-    }, 5000);
+    }, 3000);
 
     // Initialize AOS (Animate on Scroll)
     AOS.init({

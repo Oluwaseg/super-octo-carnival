@@ -1,4 +1,3 @@
-import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const FooterLinks = [
@@ -58,24 +57,24 @@ const Footer = () => {
         <div className=" grid md:grid-cols-3 py-5">
           {/* company Details */}
           <div className=" py-8 px-4 ">
-            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-              Digital Agency
+            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 text-primary dark:text-orange-400">
+              SOS{" "}
+              <span className="text-orange-400 dark:text-primary">TECH</span>
             </h1>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit consectetur adipisicing elit ipsum
-              dolor sit amet consectetur. adipisicing{" "}
+              Your go-to for web and mobile app development. We transform your
+              ideas into reality with quality and innovation.
             </p>
             <br />
             {/* Social Handle */}
             <div className="flex items-center gap-4 mt-6">
-              <a href="#">
+              <a>
                 <FaInstagram className="text-2xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
+              <a>
                 <FaFacebook className="text-2xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
+              <a>
                 <FaLinkedin className="text-2xl hover:text-primary duration-300" />
               </a>
             </div>

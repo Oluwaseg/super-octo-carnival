@@ -1,8 +1,28 @@
 import React from "react";
 import { Tilt } from "react-tilt";
+import Typed from "typed.js";
 import yellowCar from "../../assets/website/team.jpg";
 
 const Hero = () => {
+  React.useEffect(() => {
+    const options = {
+      strings: [
+        "Your go-to for web development.",
+        "Your mobile app experts.",
+        "Innovators at heart.",
+      ],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true,
+    };
+
+    const typed = new Typed(".typed-element", options);
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <div className="dark:bg-gray-950 dark:text-white duration-300">
       <div className="container min-h-[620px] flex mt-10 sm:mt-0">
@@ -35,13 +55,14 @@ const Hero = () => {
               style={{ lineHeight: 1.2 }}
             >
               Welcome to{" "}
-              <span className="text-primary">
-                SOS <span className="text-orange-400">TECH</span>{" "}
+              <span className="text-primary dark:text-orange-400">
+                SOS{" "}
+                <span className="text-orange-400 dark:text-primary">TECH</span>{" "}
               </span>
+              <span className="typed-element"></span>
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
-              Your go-to for web and mobile app development. We transform your
-              ideas into reality with quality and innovation.
+              <span className="typed-element"></span>
             </p>
             <div className="block">
               <a

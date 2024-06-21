@@ -24,7 +24,7 @@ const skillsData = [
     icon: <SlNote className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Our graphic design team creates visually compelling and impactful designs that effectively communicate your brand's message and captivate your audience.",
     aosDelay: "500",
   },
   {

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Modal from "react-modal";
 import User from "../assets/project/Data-Fortress.png";
 import Blog from "../assets/project/blog.png";
+import Job from "../assets/project/React-Jobs.png";
 
 const projects = [
   {
@@ -39,12 +40,22 @@ const projects = [
   },
   {
     id: 3,
-    title: "Project 3",
-    description: "Non aliquam quam massa id lacus.",
-    imageUrl: "https://via.placeholder.com/600x360",
+    title: "Job Management API",
+    description:
+      "This project is a job management API built with Express.js and MongoDB. It provides endpoints to create, read, update, and delete job postings. The API is integrated with a React frontend and supports the following features:",
+    imageUrl: `${Job}`,
     isNew: false,
-    link: "#",
-    skills: ["Placeholder skill"],
+    link: "https://job-filters-react.netlify.app/",
+    skills: [
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Node.js",
+      "React",
+      "JavaScript",
+      "RESTful API",
+      "CORS",
+    ],
   },
   // Add more projects as needed
 ];

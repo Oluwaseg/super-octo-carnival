@@ -6,13 +6,13 @@ const testimonialData = [
   {
     id: 1,
     name: "David Calathan - Director of Design Operations, New York",
-    text: "S.o. Tech transformed our website into a user-friendly, visually appealing platform. Their expertise and professionalism are unmatched.",
+    text: "SOS-TECH transformed our website into a user-friendly, visually appealing platform. Their expertise and professionalism are unmatched.",
     img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGVhZHNob3R8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 2,
-    name: "David Calathan - Director of Design Operations, New York",
-    text: "The mobile app developed by S.o. Tech exceeded our expectations. Their attention to detail and commitment to quality are truly commendable.",
+    name: "Diego Catalan - Director of Design Operations, New York",
+    text: "The mobile app developed by SOS-TECH exceeded our expectations. Their attention to detail and commitment to quality are truly commendable.",
     img: "https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhlYWRzaG90fGVufDB8fDB8fHww",
   },
   {

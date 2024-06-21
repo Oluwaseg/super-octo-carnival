@@ -38,9 +38,9 @@ const Navbar = () => {
           {/* Logo section */}
           <Link to="/" className="flex items-center gap-3">
             <img src={Logo} alt="" className="h-10 w-10" />
-            <span className="text-2xl sm:text-3xl font-semibold dark:text-orange-600 whitespace-nowrap">
+            <span className="text-2xl sm:text-3xl font-semibold dark:text-orange-400 whitespace-nowrap">
               SOS{" "}
-              <span className="text-orange-500 dark:text-primary">TECH</span>
+              <span className="text-orange-400 dark:text-primary">TECH</span>
             </span>
           </Link>
           {/* Desktop view Navigation */}
